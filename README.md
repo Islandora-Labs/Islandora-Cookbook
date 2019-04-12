@@ -16,7 +16,7 @@ We offer this list for discovery, but do not officially provide support for any 
 
 If you would like to contribute to this list, please check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
-If making a new entyr, please ensure your pull request adheres to the following guidelines:
+If making a new entry, please ensure your pull request adheres to the following guidelines:
 
 * Use the following format:
    * Recipe Title (brief description to the problem solved or feature added) 
