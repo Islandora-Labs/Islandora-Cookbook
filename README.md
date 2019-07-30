@@ -98,3 +98,15 @@ This module provides a method for users with the necessary permissions to manual
 [Views Bulk Edit](https://www.drupal.org/project/views_bulk_edit)
 
 A powerful tool that turns Views into a means of batch editing nodes, including Islandora repository objects. Once installled, create a view, add the fields that you would like to edit, add a `Views bulk operations (Edit)` field to the view, and select which actions you would like ot have available. The `Modify field values` action will allow you to batch edit the value for the same field across multiple objects. A demonstration of a simple bulk-editing view with a few fields and actions can be found [here](http://future.islandora.ca/islandora-batch-edit)
+
+## Gather User Feedback
+
+[Content Feedback](https://www.drupal.org/project/content_feedback)
+
+The Content Feedback module allows users and visitors to quickly send feedback messages about the currently displayed content, and can be applied to Islandora nodes. All content feedback messages are listed and grouped by status in an administrative feedback list.
+
+### Send Your Content to Archive.org
+
+[Wayback Submit to Archive.org](https://www.drupal.org/project/wayback_submit_archive)
+
+A tool for automatically submitting the contents of your site to Archive.org. The Wayback Submit module will submit all node types on schedule, according to criteria set by the site admin (only certain node types, only certain views, etc).
