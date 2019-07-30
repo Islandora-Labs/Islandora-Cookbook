@@ -73,6 +73,12 @@ To the extent possible under law, the owner has waived all copyright and related
 
 By default, Drupal allows you only to restrict access to Drupal nodes by coupling node content types to user roles. The Permissions by Term module extends Drupal by functionality for restricting view and edit access to single nodes via taxonomy terms. Since Islandora 8 objects can have taxonomy terms, this can be used to control access at the node and collection level. The submodule Permissions by Entity extends this control to the media level.
 
+### Set a Date and Time for Publication
+
+[Moderation Scheduler](https://www.drupal.org/project/moderation_scheduler)
+
+Moderation Scheduler gives content editors the ability to schedule Islanodra nodes to be published at specified dates and times in the future. Can be combined with [Views Bulk Edit](https://www.drupal.org/project/views_bulk_edit) to set the same schedued publication date/time on multiple nodes at once.
+
 ## Displays
 
 ### Image Slideshow
