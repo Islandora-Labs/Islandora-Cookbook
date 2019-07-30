@@ -67,6 +67,12 @@ To the extent possible under law, the owner has waived all copyright and related
 
 ## Access Control
 
+### Access Control By Taxonomy Tags
+
+[Permissons by Term](https://www.drupal.org/project/permissions_by_term)
+
+By default, Drupal allows you only to restrict access to Drupal nodes by coupling node content types to user roles. The Permissions by Term module extends Drupal by functionality for restricting view and edit access to single nodes via taxonomy terms. Since Islandora 8 objects can have taxonomy terms, this can be used to control access at the node and collection level. The submodule Permissions by Entity extends this control to the media level.
+
 ## Displays
 
 ### Image Slideshow
@@ -76,6 +82,14 @@ To the extent possible under law, the owner has waived all copyright and related
 Views Slideshow can be used to create a slideshow of any content (not just images) that can appear in a View. Powered by jQuery, it is heavily customizable: you may choose slideshow settings for each View you create. It can be used to create an easy, adjustable slideshow of images from an Islandora 8 repository. Views Slideshow can be seen in action with Islandora objects on the front page [here](http://future.islandora.ca/)
 
 ## Ingest
+
+## Search
+
+### Custom Search Weighting
+
+[Search Overrides](https://www.drupal.org/project/search_overrides)
+
+This module provides a method for users with the necessary permissions to manually override the results being returned by Search API Solr. They will be able to choose a specific search term, and pick which nodes should be at the top, and also choose to exclude nodes so they will not be shown in the results. Currently only nodes are supported.
 
 ## Other
 
