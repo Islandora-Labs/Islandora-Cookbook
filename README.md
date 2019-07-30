@@ -105,7 +105,7 @@ This module provides a method for users with the necessary permissions to manual
 
 A powerful tool that turns Views into a means of batch editing nodes, including Islandora repository objects. Once installled, create a view, add the fields that you would like to edit, add a `Views bulk operations (Edit)` field to the view, and select which actions you would like ot have available. The `Modify field values` action will allow you to batch edit the value for the same field across multiple objects. A demonstration of a simple bulk-editing view with a few fields and actions can be found [here](http://future.islandora.ca/islandora-batch-edit)
 
-## Gather User Feedback
+### Gather User Feedback
 
 [Content Feedback](https://www.drupal.org/project/content_feedback)
 
