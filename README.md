@@ -89,6 +89,15 @@ Views Slideshow can be used to create a slideshow of any content (not just image
 
 ## Ingest
 
+### Batch Upload with a CSV
+
+[Migrate Islandora CSV](https://github.com/Islandora-CLAW/migrate_islandora_csv)
+
+This repository is a tutorial that will introduce you to using the Drupal 8 Migrate tools to create Islandora 8 content. Whether you will eventually use CSVs or other sources (such as XML or directly from a 7.x Islandora) this tutorial should be useful as it covers the basics and mechanics of migration.
+
+This repository is also a Drupal Feature that, when enabled as a module, will create three example migrations ready for you to use with the Migrate API. 
+
+
 ## Search
 
 ### Custom Search Weighting
