@@ -69,6 +69,12 @@ To the extent possible under law, the owner has waived all copyright and related
 
 ## Displays
 
+### Image Slideshow
+
+[Views Slideshow](https://www.drupal.org/project/views_slideshow)
+
+Views Slideshow can be used to create a slideshow of any content (not just images) that can appear in a View. Powered by jQuery, it is heavily customizable: you may choose slideshow settings for each View you create. It can be used to create an easy, adjustable slideshow of images from an Islandora 8 repository. Views Slideshow can be seen in action with Islandora objects on the front page [here](http://future.islandora.ca/)
+
 ## Ingest
 
 ## Other
