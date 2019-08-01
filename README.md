@@ -21,7 +21,7 @@ Warning! - All modules are under development.
 * [Islandora RipRap](https://github.com/mjordan/islandora_riprap) - Fixity auditing 
 * [Islandora Bagger](https://github.com/mjordan/islandora_bagger) - Utility to generate Bags for objects using Islandora's REST interface using either a command-line tool or via a batch-oriented queue. 
 * [Islandora Whole Object](https://github.com/mjordan/islandora_whole_object) - Islandora 8 module that provides some Drupal blocks containing various representations of an Islandora object.
-* [Isladnora RDM](https://github.com/roblib/islandora_rdm)
+* [Islandora RDM](https://github.com/roblib/islandora_rdm)
 
 
 ## Contribute
