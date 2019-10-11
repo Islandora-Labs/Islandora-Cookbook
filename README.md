@@ -8,12 +8,13 @@ We offer this list for discovery, but do not officially provide support for any 
 
 ## Table of Contents
 
-  * [Access Control](#access-control)
-  * [Displays](#displays)
-  * [Ingest](#ingest)
-  * [Search](#search)
-  * [Other](#other)
-
+  * [Recipes](#recipes)
+  * [Ingredients](#ingredients)
+      * [Access Control](#access-control)
+      * [Displays](#displays)
+      * [Ingest](#ingest)
+      * [Search](#search)
+      * [Other](#other)
 
 ## Contribute
 
