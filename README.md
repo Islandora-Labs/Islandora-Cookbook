@@ -22,15 +22,26 @@ If you would like to contribute to this list, please check out [CONTRIBUTING.md]
 
 If making a new entry, please ensure your pull request adheres to the following guidelines:
 
-* Use the following format:
-   * Recipe Title (brief description to the problem solved or feature added) 
+* Use the following format for new **ingredients**:
+   * Ingredient Title (brief description to the problem solved or feature added) 
+   * Make an individual pull request for each new item.
+   * Link additions should be inserted alphabetically to the relavant category
+   * New categories or improvements to the existing categorization are welcome.
+   * Check your spelling and grammar.
+   * The pull request and commit should have a useful title.
+
+* Use the following format for new **recipes**:
+   * Use the [recipe template](/recipes/recipe_template.md) as a guide.
+   Recipe Title (brief description to the problem solved or feature added) 
      * List of required modules/libraries/software (with live links whereever possible) in the format `[Module Name](link)` 
-     * Step-by-step instructions on how to deploy the listed module to accomplish the stated goal. More detail is better but short recipes are accepted as starters.
-* Make an individual pull request for each new item.
-* Link additions should be inserted alphabetically to the relavant category
-* New categories or improvements to the existing categorization are welcome.
-* Check your spelling and grammar.
-* The pull request and commit should have a useful title.
+     * Step-by-step instructions on how to deploy the listed module to accomplish the stated goal. More detail is better but short recipes are accepted as starters. Screenshots are ideal!
+   * Make an individual pull request for each new item.
+   * Create your recipe as a new .md file in /recipes
+   * Add a link to your recipe in readme.md
+       * Link additions should be inserted alphabetically to the relavant category
+       * New categories or improvements to the existing categorization are welcome.
+   * Check your spelling and grammar.
+   * The pull request and commit should have a useful title.
 
 If updating an existing entry:
 
