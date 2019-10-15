@@ -122,6 +122,11 @@ This repository is also a Drupal Feature that, when enabled as a module, will cr
 
 ## Search
 
+### Custom Search Filtering
+
+[Collection Searching](./recipes/collection_search.md)
+This recipe provides instructions how to configure a shallow or deep search in a specific collection.
+
 ### Custom Search Weighting
 
 [Search Overrides](https://www.drupal.org/project/search_overrides)
