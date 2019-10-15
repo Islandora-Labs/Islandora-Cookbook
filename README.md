@@ -71,7 +71,8 @@ To the extent possible under law, the owner has waived all copyright and related
 
 # Recipes
 
-Coming soon!
+[Collection Searching](./recipes/collection_search.md)
+This recipe provides instructions how to configure a shallow or deep search in a specific collection.
 
 # Ingredients
 
