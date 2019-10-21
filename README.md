@@ -71,8 +71,9 @@ To the extent possible under law, the owner has waived all copyright and related
 
 # Recipes
 
-[Collection Searching](./recipes/collection_search.md)
+- [Collection Searching](./recipes/collection_search.md) - 
 This recipe provides instructions how to configure a shallow or deep search in a specific collection.
+- [Exhibitions and TimeLine JS](https://github.com/manez/Islandora-Cookbook/blob/master/recipes/exhibitions.md) - This recipe outlines how to build exhibits in Islandora 8, including the deployment of TimeLineJS.
 
 # Ingredients
 
