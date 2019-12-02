@@ -38,4 +38,4 @@ In this project, the following policies apply:
 
 ## License Agreements
 
-Islandora Cookbook is shared on a [CC0 Public Domain license](https://creativecommons.org/publicdomain/zero/1.0/), as are all additions. By contributing to the list, your additions will also be shared under this licence. A CLA is not required for contributions to Awesome Islandora.
+Islandora Cookbook is shared on a [CC0 Public Domain license](https://creativecommons.org/publicdomain/zero/1.0/), as are all additions. By contributing to the list, your additions will also be shared under this licence. A CLA is not required for contributions to the Islandora Cookbook.
