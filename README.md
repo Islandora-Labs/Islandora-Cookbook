@@ -85,6 +85,7 @@ Warning! - All modules are under development.
 
 * [Basic Ingest](https://github.com/discoverygarden/basic_ingest) - Basic repository item ingest improvements.
 * [Islandora RipRap](https://github.com/mjordan/islandora_riprap) - Fixity auditing 
+* Islandora Repository Reports(https://github.com/mjordan/islandora_repository_reports) - Graphical reports on various aspects of an Islandora repository.
 * [Islandora Bagger](https://github.com/mjordan/islandora_bagger) - Utility to generate Bags for objects using Islandora's REST interface using either a command-line tool or via a batch-oriented queue. 
 * [Islandora Whole Object](https://github.com/mjordan/islandora_whole_object) - Islandora 8 module that provides some Drupal blocks containing various representations of an Islandora object.
 * [Islandora RDM](https://github.com/roblib/islandora_rdm)
