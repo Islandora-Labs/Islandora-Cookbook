@@ -104,6 +104,12 @@ By default, Drupal allows you only to restrict access to Drupal nodes by couplin
 
 Moderation Scheduler gives content editors the ability to schedule Islanodra nodes to be published at specified dates and times in the future. Can be combined with [Views Bulk Edit](https://www.drupal.org/project/views_bulk_edit) to set the same schedued publication date/time on multiple nodes at once.
 
+### Tombstoning
+
+[Tombstones](https://www.drupal.org/project/tombstones)
+
+A module that informs users who attempt to view deleted content that the resource has been removed instead of showing a generic 404 page. Fielded so that the date, reason, and altenative links can be given, along with a citation for the deleted object.
+
 ## Displays
 
 ### Image Slideshow
