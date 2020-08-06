@@ -74,6 +74,7 @@ To the extent possible under law, the owner has waived all copyright and related
 - [Collection Searching](./recipes/collection_search.md) - 
 This recipe provides instructions how to configure a shallow or deep search in a specific collection.
 - [Exhibitions and TimeLine JS](https://github.com/manez/Islandora-Cookbook/blob/master/recipes/exhibitions.md) - This recipe outlines how to build exhibits in Islandora 8, including the deployment of TimeLineJS.
+- [Digital Preservation](https://github.com/mjordan/digital_preservation_using_islandora)(external repo) - A detailed overview of how to approach digital preservation in Islandora 8. Includes features that are currently avaiable, both within Islandora and by using compatible tools.
 
 # Ingredients
 
