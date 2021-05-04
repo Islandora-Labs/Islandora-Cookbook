@@ -129,6 +129,11 @@ This repository is a tutorial that will introduce you to using the Drupal 8 Migr
 
 This repository is also a Drupal Feature that, when enabled as a module, will create three example migrations ready for you to use with the Migrate API. 
 
+### Another Way to Batch Upload from CSV
+
+[Islandora Workbench](https://github.com/mjordan/islandora_workbench)
+
+Command-line tool for ingesting (and updating) nodes and media from anywhere - you don't need access to the Drupal server's command line. Provides robust data validation, flexible organization of your input data (can use CSV, Google Sheets, or Excel files) plus creation of taxonomy terms on the fly.
 
 ## Search
 
