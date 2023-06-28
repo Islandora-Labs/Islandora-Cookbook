@@ -8,7 +8,6 @@ A site wants to include a facet for date field(s) that presents itself as a rang
 * An EDTF date field (like the one that comes with Controlled Access Terms)
 * Drupal's jquery-ui-slider module (https://www.drupal.org/project/jquery_ui_slider, drupal/jquery_ui_slider)
 * Drupal's facet module (https://www.drupal.org/project/facets, drupal/facets)
-* A patch to the Facet's module (available here: https://www.drupal.org/project/facets/issues/3186953)
 * "Facets range widget" - a submodule of the Facets module
 * The library for jquery-ui-slider-pips (bower-asset/jquery-ui-slider-pips) along with jquery and jquery-ui
 
@@ -31,32 +30,21 @@ A site wants to include a facet for date field(s) that presents itself as a rang
     ```
     - In the "installer-paths" section, you should have one for the libraries directory, but you'll need to extend to it. It should look like:
     ```
-        "web/libraries/{$name}": ["type:drupal-library","vendor:npm-asset",
-                "vendor:bower-asset"],
+        "web/libraries/{$name}": [
+            "type:drupal-library",
+            "vendor:npm-asset",
+            "vendor:bower-asset"
+        ],
     ```
     - In the "extra" section, add another section for installer types:
     ```
         "installer-types": ["npm-asset", "bower-asset"]
     ```
-4. Add the required bower library for jquery-ui-slider-pips
+4. Add the composer-installers-extender plugin to allow composer to install to your web/libraries directory
+    - `composer require oomphinc/composer-installers-extender`
+5. Add the required bower library for jquery-ui-slider-pips
     - `composer require bower-asset/jquery-ui-slider-pips`
     - If the step 3 was completed successfully and this command ran successfully, you should see in your `web/libraries` directory the `jquery-ui-slider-pips` directory has been created and populated. It may also have added `jquery` and `jquery-ui` folders depending on your existing install.
-5. Add the patch for facets to know where that library is
-    - Open up your composer.json again. In the extra section, you may have a "patches" section. If you do, add the patch from https://www.drupal.org/project/facets/issues/3186953 like so:
-    ```
-        "drupal/facets": {
-            "slider fix": "https://www.drupal.org/files/issues/2020-12-14/3186953--7.patch"
-        }
-    ```
-    If you don't have a patches section at all, you can create one like so:
-    ```
-        "patches": {
-            "drupal/facets": {
-                "slider fix": "https://www.drupal.org/files/issues/2020-12-14/3186953--7.patch"
-            }
-        },
-    ```
-    - Install the patch by running `composer update drupal/facets`. You should see the output that it removes `drupal/facets` and then adds it back.
 6. Now you should be ready to move on to the UI components. Go to your search API solr index configuration on the Processors tab. If you're using a default Islandora set up, it's mostly located at `/admin/config/search/search-api/index/default_solr_index/processors`. Check the checkbox next to "EDTF Year".  This process will use the EDTF library to strip out the year from the date provided so that Solr can handle it as an integer, which allows us to make a facet slider.
 ![Processors screensot](./screenshots/range_slider/processor.png)
 7. Scroll to the bottom of the processors page and configure the EDTF Year processor as desired. The configuration allows you to
@@ -92,19 +80,3 @@ Search your block by its name and then click "Place Block" again
 Save the block config.
 16. View your search page and perform a query. You should see the facet block on the side:
 ![Range slider screenshot](./screenshots/range_slider/range_slider.png)
-
-
-
-
-
-
-
-
-
-
-## Notes
-
-Drupal is making an effort to remove the dependency on Jquery UI because it is no longer being supported. Because of this, they have removed Jquery UI from Core drupal. This is why we need a special patch to include the slider in a D9 site. If you're running Drupal 8, you should be able to use facets out of the box without the patch, but as soon as you upgrade to Drupal 9, the slider would break. There are two issues on the Facets issue queue which discuss potentially replacing the Jquery UI slider library with a different library but a course of action has not yet been determined.
-- https://www.drupal.org/project/facets/issues/3186953
-- https://www.drupal.org/project/facets/issues/3153622
-
