@@ -14,7 +14,7 @@ A site wants to include a facet for date field(s) that presents itself as a rang
 ## Instructions
 1. Install the required drupal modules. In your drupal root, use composer to install modules.
     - `composer require drupal/facets`
-    - `composer require islandora/controlled_access_terms`
+    - `composer require drupal/controlled_access_terms`
     - `composer require drupal/jquery_ui_slider`
 2. Enable the modules (from the UI or from drush)
     - `drush pm-enable facets controlled_access_terms jquery_ui_slider facets_range_widget`
