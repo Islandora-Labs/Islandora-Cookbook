@@ -2,25 +2,29 @@
 
 How do I search only a certain collection or a collection and all sub-collections?
 
+This functionality is provided in the Islandora Starter Site, with some nice UI sugar provided by the [Advanced Search module](https://www.drupal.org/project/advanced_search). If you want to configure collection search without that module, this recipe provides a way.
+
 ## Ingredients
 
-* Drupal 8
-* Islandora
-* Islandora Defaults (for some expected settings)
+* Drupal 10
+* Solr
+* A collection field, such as "Member of" (`field_member_of`)
 
 ## Instructions
 
 ### Creating shallow search
 
-This is a simple view following the `member_of` relationship, though it could follow any parent child relationship.
+This is a simple view following the `member_of` relationship, though it could follow any parent-child relationship.
 
-#### Creating required search fields
+#### Creating an aggregated search
 
-To create the search fields go to **Admin -> Configuration -> Search and Metadata -> Search API**
+We need to create a field in Solr that the search view will use to search on. (This is not necessary if using the Advanced Search module)
+
+To create the search field go to **Admin -> Configuration -> Search and Metadata -> Search API**
 
 ![Search API screenshot](./screenshots/collection_search/search_api.png)
 
-Then choose **Edit** operation on the _Index (Default Solr content index)_ line.
+Then select your Index, here called _Index (Default Solr content index)_.
 
 Then choose the **Fields** tab.
 
