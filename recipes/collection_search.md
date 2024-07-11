@@ -16,9 +16,9 @@ This functionality is provided in the Islandora Starter Site, with some nice UI 
 
 This is a simple view following the `member_of` relationship, though it could follow any parent-child relationship.
 
-#### Creating an aggregated search
+#### Creating an aggregated search field
 
-We need to create a field in Solr that the search view will use to search on. (This is not necessary if using the Advanced Search module)
+We need to create a field in Solr that the search view will use to search on. It should combine all the fields in the content that you want to be searchable (This is not necessary if using the Advanced Search module). Alternately, you could skip this step and use the "Rendered Entity" Solr field, if you have entities rendered in a way that displays all the desired fields.
 
 To create the search field go to **Admin -> Configuration -> Search and Metadata -> Search API**
 
