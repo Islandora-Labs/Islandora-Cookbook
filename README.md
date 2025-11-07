@@ -1,5 +1,12 @@
 # Islandora-Cookbook
 
+NOTE: This cookbook is no longer being updated. The content that is still relevant is being actively migrated to the Islandora offical documenation section for [Extending Islandora](https://islandora.github.io/documentation/user-documentation/extending/). Please do not submit new recipes to this Git repository.
+
+</br>
+</br>
+</br>
+</br>
+
 ## Introduction
 
 In the spirit of [Islandora Awesome](https://github.com/Islandora-Labs/islandora_awesome), Islandora Cookbook is a curated list of great modules and other tools for Islandora 8. Because Islandora 8 is more tightly integrated with Drupal, most of these 'recipes' require only Drupal modules as ingredients.
